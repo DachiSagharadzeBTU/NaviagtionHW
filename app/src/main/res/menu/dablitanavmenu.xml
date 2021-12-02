@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+    <item
+        android:id="@+id/calculatorFragment"
+        android:icon="@drawable/ic_baseline_calculate_24"
+        android:title="Calculator"/>
+    <item
+        android:id="@+id/tiktaktoeFragment"
+        android:icon="@drawable/ic_baseline_gamepad_24"
+        android:title="TikTakToe"/>
+    <item
+        android:id="@+id/mersomasFragment"
+        android:icon="@drawable/ic_baseline_directions_car_24"/>
+
+</menu>

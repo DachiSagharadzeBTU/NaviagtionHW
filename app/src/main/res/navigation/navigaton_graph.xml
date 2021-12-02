@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigaton_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.naviatgortest.fragments.homeFragment"
+        tools:layout="@layout/fragment_home"
+        android:label="homeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_calculatorFragment2"
+            app:destination="@id/calculatorFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_fragmentTiktaktoe2"
+            app:destination="@id/fragmentTiktaktoe" />
+        <action
+            android:id="@+id/action_homeFragment_to_fragmentNikoloz"
+            app:destination="@id/fragmentNikoloz" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_calculator"
+        android:id="@+id/calculatorFragment"
+        android:name="com.example.naviatgortest.fragments.calculatorFragment"
+        android:label="calculatorFragment" />
+    <fragment
+        tools:layout="@layout/fragment_tiktaktoe"
+        android:id="@+id/fragmentTiktaktoe"
+        android:name="com.example.naviatgortest.fragments.fragmentTiktaktoe"
+        android:label="fragmentTiktaktoe" />
+    <fragment
+        tools:layout="@layout/teacher_nikoloz"
+        android:id="@+id/fragmentNikoloz"
+        android:name="com.example.naviatgortest.fragments.fragmentNikoloz"
+        android:label="fragmentNikoloz" />
+</navigation>
